@@ -1,0 +1,82 @@
+.registration-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .password-strength {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .password-strength.Strong {
+    color: green;
+  }
+  
+  .password-strength.Moderate {
+    color: orange;
+  }
+  
+  .password-strength.Weak {
+    color: red;
+  }
+  
+  .password-strength.TooShort {
+    color: red;
+  }
+  
+  .register-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .username-display {
+    margin-top: 15px;
+    font-size: 14px;
+    color: green;
+  }
+  .username-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
